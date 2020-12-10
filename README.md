@@ -1,4 +1,4 @@
-#Tech Choices
+# Tech Choices
 
 There is the chance that a job remains in PROCESSING state because the transaction in  
 JobService.findNextAvailableJobAndSetStatusToProcessing() doesn't include:
