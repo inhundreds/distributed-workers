@@ -1,0 +1,14 @@
+INSERT INTO STATUS(DESCRIPTION) VALUES ('NEW');
+INSERT INTO STATUS(DESCRIPTION) VALUES ('PROCESSING');
+INSERT INTO STATUS(DESCRIPTION) VALUES ('DONE');
+INSERT INTO STATUS(DESCRIPTION) VALUES ('ERROR');
+INSERT INTO JOB VALUES (1, 'https://www.proxify.io', 'DONE', null);
+INSERT INTO JOB VALUES (2, 'https://www.google.it', 'NEW', null);
+INSERT INTO JOB VALUES (3, 'https://www.reddddpubblica.it', 'NEW', null);
+INSERT INTO JOB VALUES (4, 'https://www.stackoverflow.com', 'NEW', null);
+INSERT INTO JOB VALUES (5, 'https://www.google.it/not-exist.html', 'NEW', null);
+INSERT INTO JOB VALUES (6, 'https://twitter.com/home', 'NEW', null);
+INSERT INTO JOB VALUES (7, 'https://www.facebook.com', 'NEW', null);
+INSERT INTO JOB VALUES (8, 'https://www.instagram.com', 'NEW', null);
+INSERT INTO JOB VALUES (9, 'https://www.wikipedia.com', 'NEW', null);
+INSERT INTO JOB VALUES (10, 'https://it.wikipedia.org/wiki/Pagina_principale', 'NEW', null);
